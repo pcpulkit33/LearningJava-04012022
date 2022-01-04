@@ -11,8 +11,8 @@ public class RandomNumber {
 		int x = random.nextInt(50);
 		int y = random.nextInt(1000);
 		
-		System.out.println("The ramdom value of x is :" + x);
-		System.out.println("The ramdom value of y is :" + y);
+		System.out.println("The ramdom value of x is :-" + x);
+		System.out.println("The ramdom value of y is :-" + y);
 	}
 
 }

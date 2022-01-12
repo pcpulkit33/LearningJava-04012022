@@ -13,5 +13,11 @@ public class RandomNumber {
 		
 		System.out.println("The ramdom value of x is :" + x);
 		System.out.println("The ramdom value of y is :" + y);
+		
+		//random character
+		Random r = new Random();
+		char c=(char)(r.nextInt(26) + 'a');
+		System.out.println("Random character is "+ c + "ul");
 	}
 }
+
